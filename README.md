@@ -21,7 +21,7 @@ cd dotfiles-ubuntu-setup
 ./setup.sh
 ```
 
-Wait about 2 minutes for the setup to complete and login to the host.
+Wait about 3-5 minutes for the setup to complete and login to the host.
 
 ### Run manually
 Setup the server and login, then do the following.

@@ -13,7 +13,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 
 ## Install ZSH
-apt update && apt upgrade -y
+apt update
 apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" --unattended
 mkdir -p ~/.fonts
@@ -29,3 +29,5 @@ cp ./.p10k.zsh ~/.p10k.zsh
 source .zshrc
 chsh -s $(which zsh)
 
+## update local packages
+apt upgrade -y
